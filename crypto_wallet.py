@@ -6,12 +6,10 @@
 ################################################################################
 # Imports
 import os
-import requests
 from dotenv import load_dotenv
 load_dotenv()
 from bip44 import Wallet
 from web3 import Account
-from web3 import middleware
 from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 ################################################################################
@@ -55,6 +53,7 @@ def send_transaction(w3, account, to, wage):
 
     # Calculate gas estimate
     gasEstimate = w3.eth.estimateGas({"to": to, "from": account.address, "value": value})
+    gas_price_wei = w3.toWei(20, "gwei")  # Adjust the value as needed (20 Gwei)
 
     # Construct a raw transaction
     raw_tx = {
@@ -62,7 +61,7 @@ def send_transaction(w3, account, to, wage):
         "from": account.address,
         "value": value,
         "gas": gasEstimate,
-        "gasPrice": 0,
+        "gasPrice": gas_price_wei,
         "nonce": w3.eth.getTransactionCount(account.address)
     }
 

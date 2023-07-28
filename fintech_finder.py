@@ -151,9 +151,9 @@ ether = get_balance(w3, account.address)
 
 # Write the returned ether balance to the sidebar
 
-st.sidebar.markdown ('##Ether Balance Ξ')
+st.sidebar.markdown ('## Ether Balance Ξ')
 st.sidebar.write(ether)
-st.sidebar.markdown("----------")
+st.sidebar.markdown("------------")
 
 ##########################################
 
@@ -182,10 +182,6 @@ candidate_address = candidate_database[person][1]
 
 # Write the inTech Finder candidate's Ethereum Address to the sidebar
 st.sidebar.write(candidate_address)
-
-# Write the Fintech Finder candidate's name to the sidebar
-
-st.sidebar.markdown("## Total Wage in Ether Ξ")
 
 ################################################################################
 # Step 2: Sign and Execute a Payment Transaction
@@ -278,7 +274,7 @@ if st.sidebar.button("Send Transaction"):
     # Your `account`, the `candidate_address`, and the `wage` as parameters
     # Save the returned transaction hash as a variable named `transaction_hash`
 
-    transaction_hash = send_transaction(account, candidate_address, wage)
+    transaction_hash = send_transaction(w3, account, candidate_address, wage)
 
     # Markdown for the transaction hash
     st.sidebar.markdown("#### Validated Transaction Hash")
@@ -291,7 +287,7 @@ if st.sidebar.button("Send Transaction"):
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
-get_people()
+get_people(w3)
 
 ################################################################################
 # Step 3: Inspect the Transaction
