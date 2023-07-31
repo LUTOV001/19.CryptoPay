@@ -39,7 +39,7 @@ pip install web3
 ---
 ## **Solution Structure**
 
-### The **[18.DeFi](https://github.com/LUTOV001/18.DeFi)** repository in GitHub contains the solution components. The repository consists of the following folders and contents as described below:
+### The **[19.CryptoPay](https://github.com/LUTOV001/19.CryptoPay)** repository in GitHub contains the solution components. The repository consists of the following folders and contents as described below:
  
 ###   *1. Results :* Contains the screenshot files showing the results of running the Streamlit application as well as the transactions as recorded in the Ganache application
 ###   *2. gitignore :* Instructions for which files/file types to exclude from the sync process between GitHub and the local environment.
