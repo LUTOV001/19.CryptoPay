@@ -65,19 +65,19 @@ streamlit run fintech_finder.py
 ##### ![Ganache_Initial_Bal.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/Ganache_Initial_Bal.jpg)
 #####
 ### ***2. FinTech Finder Transaction Posted***
-#### Shows the results of the selection of the FinTech professional hiring, including the the hash of the block created and the ***Total Wage in Ether*** of 0.061 ETH to be deducted from the initial wallet balance.
+#### Shows the results of the selection of the FinTech professional hiring, including the the hash of the block created and the ***Total Wage in Ether*** of 0.016 ETH to be deducted from the initial wallet balance.
 ##### ![Transaction_hash.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/Transaction_hash.jpg)
 #####
 ### ***3. Ganache End Balance***
-#### Shows the final wallet balance of 99.98 ETH in Ganache after the ***Total Wage in Ether*** of 0.016 ETH (rounded to 0.02 ETH) has been deducted from the original 100 ETH balance
+#### Shows the final wallet balance of 99.98 ETH in Ganache after the ***Total Wage in Ether*** of 0.016 ETH (rounded to 0.02 ETH) has been deducted from the original 100 ETH balance from the first address listed. Please also note how the Transaction count changed from 0 on the first screenshot to 1 on this one.
 ##### ![Ganache_End_Balance.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/Ganache_End_Balance.jpg)
 ####
 ### ***5. Transaction Count***
 #### Shows the ***Transaction Count*** of 1 in the crated block in Ganache (Block 6)
 #### ![transaction_count.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/transaction_count.jpg)
 ####
-### ***5. Block in Ganache ***
-#### Shows the details of the block created in Ganache (Block 6). Note that the ***To Address*** corresponds to the address of the selected FinTech professional(Kendall), also shown on screenshot 2 above.
+### ***5. Block in Ganache***
+#### Shows the details of the block created in Ganache (Block 6). Note that the ***To Address*** corresponds to the address of the selected FinTech professional(Kendall), also shown on screenshot.
 #### ![block.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/block.jpg)
 ---
 ### **Credits**
