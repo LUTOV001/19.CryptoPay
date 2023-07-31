@@ -77,7 +77,7 @@ streamlit run fintech_finder.py
 #### ![transaction_count.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/transaction_count.jpg)
 ####
 ### ***5. Block in Ganache***
-#### Shows the details of the block created in Ganache (Block 6). Note that the ***To Address*** corresponds to the address of the selected FinTech professional(Kendall), also shown on screenshot.
+#### Shows the details of the block created in Ganache (Block 6). Note that the ***To Address*** corresponds to the address of the selected FinTech professional(Kendall) shown on screenshot 2.
 #### ![block.jpg](https://github.com/LUTOV001/19.CryptoPay/blob/main/Results/block.jpg)
 ---
 ### **Credits**
